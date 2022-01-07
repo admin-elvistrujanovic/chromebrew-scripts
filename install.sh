@@ -48,3 +48,4 @@ cd /
 rm -rf /.install
 cat /.chromebrew_installed
 echo Done
+rm /install.sh
