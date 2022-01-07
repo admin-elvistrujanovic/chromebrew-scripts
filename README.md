@@ -9,8 +9,7 @@ If used improperly, these scripts can render your system useless. Please proceed
 
 ## Installation
 ```
-$ git clone https://github.com/uberhacker/chromebrew-scripts
-$ sudo cp chromebrew-scripts/* /usr/local/bin
+$ sudo curl -OL https://github.com/admin-elvistrujanovic51/chromebrew-scripts/install.sh | sudo bash
 ```
 ## Usage
 Install Chromebrew: `$ chromebrew -i | --install`
