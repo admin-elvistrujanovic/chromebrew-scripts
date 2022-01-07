@@ -1,7 +1,10 @@
 #/bin/sh
 clear
 echo Installation is started
-clear
+echo
+echo
+echo
+echo
 echo Prepairing installation files...
 mkdir /.install
 cd /.install
@@ -26,6 +29,12 @@ chown chronos chromebrew
 chown chronos powerwash
 chown chronos rootfs
 chown chronos rw
+echo
+echo
+echo
+echo
+echo
+echo
 echo Applying Chromebrew in bin
 cp /.install/chromebrew /sbin
 cp /.install/powerwash /sbin
@@ -46,6 +55,12 @@ cp /.install/rw /usr/local/bin
 cp /.install/.chromebrew_installed /
 cd /
 rm -rf /.install
+echo
+echo
+echo
+echo
+echo
+echo
 cat /.chromebrew_installed
 echo Done
 rm /install.sh
