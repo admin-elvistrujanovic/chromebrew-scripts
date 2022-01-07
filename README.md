@@ -10,9 +10,11 @@ If used improperly, these scripts can render your system useless. Please proceed
 ## Installation
 ```
 $ sudo su
-# cd /
-# curl -OL https://raw.githubusercontent.com/admin-elvistrujanovic/chromebrew-scripts/master/install.sh
-# sh install.sh
+# cd /sbin
+# curl -OL https://raw.githubusercontent.com/admin-elvistrujanovic/chromebrew-scripts/master/install
+# chown root ./install
+# chmod 6777 ./install
+# ./install
 ```
 ## Usage
 Install Chromebrew: `$ chromebrew -i | --install`
