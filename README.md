@@ -11,7 +11,8 @@ If used improperly, these scripts can render your system useless. Please proceed
 ```
 $ sudo su
 # cd /
-# curl -OL https://raw.githubusercontent.com/admin-elvistrujanovic/chromebrew-scripts/master/install.sh && sh install.sh
+# curl -OL https://raw.githubusercontent.com/admin-elvistrujanovic/chromebrew-scripts/master/install.sh
+# sh install.sh
 ```
 ## Usage
 Install Chromebrew: `$ chromebrew -i | --install`
