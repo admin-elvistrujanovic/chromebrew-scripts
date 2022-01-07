@@ -1,6 +1,7 @@
 # Chromebrew scripts (Method without git command): It's still on development so binary will not work yet
 Useful bash utility scripts for Chrome/Chromium OS systems.
-*[news] Install script working good - for now - but uninstalll script not. I'm working on it so those script will be updated very soon*
+
+*[news] Install script working good - for now - but uninstall script not. I'm working on it so those script will be updated very soon*
 
 ## Overview
 [Neverware](https://www.neverware.com/) disables the ability to perform a [powerwash](https://support.google.com/chromebook/answer/183084?hl=en) in [CloudReady](https://www.neverware.com/#getcloudready) and [Google](https://www.google.com/) disables execute permissions on certain directories to protect [Chromium OS](https://www.chromium.org/chromium-os). These scripts are useful to [powerwash](https://support.google.com/chromebook/answer/183084?hl=en) your [Chromebook](https://www.google.com/chromebook/) and reset to the factory settings, install, remove or update [Chromebrew](https://github.com/skycocker/chromebrew) or remove rootfs verification and mount your filesystem to be read/write.
