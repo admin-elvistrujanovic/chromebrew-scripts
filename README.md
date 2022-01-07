@@ -9,7 +9,9 @@ If used improperly, these scripts can render your system useless. Please proceed
 
 ## Installation
 ```
-$ sudo curl -OL https://github.com/admin-elvistrujanovic/chromebrew-scripts/install.sh | sudo sh install.sh
+$ sudo su
+# cd /
+# curl -OL https://github.com/admin-elvistrujanovic/chromebrew-scripts/install.sh | sh install.sh
 ```
 ## Usage
 Install Chromebrew: `$ chromebrew -i | --install`
