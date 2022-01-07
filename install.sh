@@ -17,7 +17,7 @@ rename chromebrew.txt chromebrew chromebrew.txt
 rename powerwash.txt powerwash powerwash.txt
 rename rootfs.txt rootfs rootfs.txt
 rename rw.txt rw rw.txt
-rename chromebrew_installed.txt .chromebrew_installed chromebrew_instlled.txt
+rename chromebrew_installed.txt .chromebrew_installed chromebrew_installed.txt
 chmod 6777 chromebrew
 chmod 6777 powerwash
 chmod 6777 rootfs
