@@ -1,4 +1,4 @@
-# Chromebrew scripts
+# Chromebrew scripts (Method without git command)
 Useful bash utility scripts for Chrome/Chromium OS systems.
 
 ## Overview
