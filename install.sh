@@ -11,13 +11,13 @@ curl -OL https://github.com/uberhacker/chromebrew-scripts/files/7829386/chromebr
 curl -OL https://github.com/uberhacker/chromebrew-scripts/files/7829389/powerwash.txt
 curl -OL https://github.com/uberhacker/chromebrew-scripts/files/7829393/rootfs.txt
 curl -OL https://github.com/uberhacker/chromebrew-scripts/files/7829395/rw.txt
-curl -OL https://github.com/uberhacker/chromebrew-scripts/files/7829540/default.chromebrew_installed.txt
+curl -OL https://github.com/uberhacker/chromebrew-scripts/files/7829835/chromebrew_installed.txt
 echo Setting up Chromebrew bin files
 rename chromebrew.txt chromebrew chromebrew.txt
 rename powerwash.txt powerwash powerwash.txt
 rename rootfs.txt rootfs rootfs.txt
 rename rw.txt rw rw.txt
-rename default.chromebrew_installed.txt .chromebrew_installed default.chromebrew_instLled.txt
+rename chromebrew_installed.txt .chromebrew_installed chromebrew_instLled.txt
 chmod 6777 chromebrew
 chmod 6777 powerwash
 chmod 6777 rootfs
